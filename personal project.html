@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karzana</title>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/74e1cbbabb.js" crossorigin="anonymous"></script>
+   <!-- googlefonts -->
+   
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <!-- css style sheet -->
+    <link rel="stylesheet" href="peoject style.css">
+    <!-- javascript -->
+    <script src="script.js"></script>
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container-fluid">
+            <a class="nav-iten nav-link" href="#"><i class="navbar-brand fas fa-user-ninja"></i> <span class="navbar-text">Karzana Global Resources</span> </a>
+            <div class="dropdown">
+            <a href="#" class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu"> <i class="navbar-toggler-icon"></i></a>
+           <div class="navbar-collapse collapse " id="nav-menu">
+            <div class="navbar-nav ml-auto">
+            <a class="nav-iten nav-link" href="#login">Login</a>
+           
+            <a class="nav-iten nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-menu" href="#Bookings"> Bookings</a>
+                <div class="dropdown-menu">
+                    <a href="#Hospitality" class="dropdown-item small"> Karzana Suites</a>
+                    <a href="#Farms" class="dropdown-item small"> Karzana Farms</a>
+                    <a href="#" class="dropdown-item small"> Haulage</a> </div>
+                    
+            <a class="nav-iten nav-link" href="#AboutUs"> AboutUs</a>
+            <div class="dropdown">
+            <a class="nav-iten nav-link dropdown-toggle" data-toggle="dropdown" id="dropdown-menu" href="#Contact"><i class="far fa-address-book"></i> Contact</a>
+            <div class="dropdown-menu">
+            <a href="#contact" class="dropdown-item small"> Lagos Address</a> 
+            <a href="#contact" class="dropdown-item small"> Makurdi Address</a> 
+            ` </div> </div> 
+            </div>
+        </div>
+        </div>
+
+    </nav>
+
+    <!-- slider -->
+    <div class="carousel" id="mainslide">
+        <div class="carousel-inner">
+            <img class="w-100 d-block" src="Bedroom.jpg" alt="">
+        </div>
+    </div>
+    <!-- mission statement -->
+    <div class="container">
+    <div class="container" id="Mission">
+        <div class="row">
+        <div class="col-5 md-4 sm-3">
+            <h3>Mission</h3>  
+            <p>We are an orgainisation birthed with the  customer in mind and the future in view. 
+                We aim to provide services that will make life easier for you concentrating on   
+            <ul>
+                <li>hospitality</li>
+                <li>  Real Estate</li>
+                <li>logistics</li>
+                <li> Agricultural supply and value chain</li>
+            </ul>  </p>
+        </div>
+                <!-- login -->
+        <div class="col-5 md-4 sm-3" id="login">
+            <form action="">
+        <div class="form-group" >
+
+            <label for="input email"> Email</label>
+            <input type="email" class="form-control" >
+        </div>
+        <label for="Password"> Password</label>
+        <input type="password" class="form-contol">
+        <div>
+        <input type="checkbox">
+        <label for="" class="form-check-label"> I agree to the terms and conditions</label>
+
+        <button class="btn  btn-outline-primary" type="submit" id="button"> Submit</button>
+    </form>
+    </div>
+    </div>
+    </div>
+    
+    <!-- cards -->
+    <div class="container-fluid mt-5">
+        <div class="card-deck mt-10">
+    <div class="card">
+        <img src="Parlour.jpg" alt="" class="card-top">
+        <div class="card-body">
+            <h6 class="Card-title"> Suites</h6>
+            <p class="card-text"> serviced apartments</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="Bathroom.jpg" alt="" class="card">
+        <div class="card-body">
+            <h6 class="Card-title"> Suites</h6>
+            <p class="card-text"> serviced apartments</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Chicken Farm.jpg" alt="" class="card">
+        <div class="card-body">
+            <h6 class="Card-title"> Farm</h6>
+            <p class="card-text"> Cross section of birds at the facility</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+        <!-- Booking -->
+        <div class="container-fluid mt-5 text-center" id="Booking">
+            <h3>Booking</h3>
+            <div class="row" >
+                <div class="col-5 md-4 sm-3 xs-2">
+                    <form>
+                        <div class="form-group"  id="Hospitality">
+                            <label for="Rooms">Number of Rooms</label>
+                            <select  class="form-control">
+                            <option> 1</option>
+                            <option> 2</option>
+                            <option> 3</option>
+                            <option> 4</option></select>
+                         </div>
+                        <div class="form-group">
+                            <label for="date"> Date of arrival</label>
+                            <input type="date"></div>
+
+                            <div class="form-group">
+                                <label for="date"> Date of Depature</label>
+                                <input type="date"></div>
+
+                            <div class="form-group">
+                            <label for="Requests" > Requests</label>
+                            <input type="text" placeholder="Any requests">
+                        </div>
+                        <a class="btn  btn-outline-primary btn-block" id="fire" href="#" > Proceed To Payment</a>
+                    </form>
+
+                </div>
+
+
+                <div class="col-5 md-4 sm-3 xs-2" id="Farms">
+                    <form>
+                        <div class="form-group">
+                            <label for="Rooms">Livestock</label>
+                            <select  class="form-control" id="type">
+                            <option> Broilers</option>
+                            <option> Cows</option>
+                            <option> Turkeys</option>
+                            <option> Ducks</option></select>
+                         </div>
+                        
+                            <div class="form-group">
+                                <label for="date"> Date of Delivery/Pickup</label>
+                                <input type="date"></div>
+
+                            <div class="form-group">
+                            <label for="Quantity" > Quantity</label>
+                            <input type="number" placeholder="0000">
+                        </div> <br> <br>
+                        <a class="btn  btn-outline-primary btn-block" id="pay"  href="#" > Proceed To Payment</a>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+<!-- Address -->
+<div class="container mt-5" id="contact">
+    <h3 i class="far fa-address-book"></i>Contact</h3>
+    <div class="row">
+        <div class="col-6">
+            <h4>Lagos</h4>
+            <p>No 3 Femi dare Close Lekki <address><a href="tel:+2340809xxxx">+234809xxxxx</a></address> </p>
+        </div>
+        <div class="col-6">
+            <h4>Makurdi</h4>
+            <p>No 15 jane Doe street Gaadi Layout Makurdi <address><a href="tel:+2340809xxxx">+234809xxxxx</a></address> </p>
+        </div>
+    </div>
+</div>
+
+<!-- AboutUs -->
+<div class="container" id="AboutUs">
+   
+<h3>About us</h3>
+<div class="row">
+<div class="col-5 md-4 sm-3 ">
+<p> Seember Dio is an accountant and entrepreneur. he looks to provide value in the social space</p> <p><img src="Seember.jpg"Seember Dio"></p></div>
+<div class="col-5 sm-3 ml-auto">
+<p>Karzan Dio is an administrator and entrepreneur who looks to make a difference </p><p><img src="Kazzy.jpg" alt="Karzan Dio"></p></div>
+</div></div>
+
+  <!-- footer -->
+  <div class="container-fluid mt-5">
+      <div class="col-12">
+    <footer class="text-center" id="footer"> 
+
+         Karzana &copy; 2020
+    </footer>
+</div>
+</div> </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
+    crossorigin="anonymous"></script>
+    <script>
+        
+        $(document).ready (function(){
+            
+            $('#fire').on('click', function (e) {
+
+                alert("Please wait")
+
+})
+           
+           
+            $('#pay').on('click', function (e) {
+
+alert("you Are Being Transfered To Paystack")
+
+})
+
+
+$('#button').on('click', function (e) {
+
+alert("Logging In")
+
+})
+}) 
+
+    </script>
+</body>
+</html>
