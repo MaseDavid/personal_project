@@ -5,4 +5,3 @@ var user = {
 }
 localStorage.setItem("user", JSON.stringify(user))
 
-// localStorage.removeItem("users")
